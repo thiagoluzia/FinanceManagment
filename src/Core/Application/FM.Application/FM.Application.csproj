@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Modules\BankAccounts\QueryHandles\" />
+    <Folder Include="Modules\BankAccounts\CommandHandles\" />
+    <Folder Include="Modules\Budgets\CommandHandles\" />
+    <Folder Include="Modules\Budgets\QueryHandles\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Ports\" />
+  </ItemGroup>
+
+</Project>

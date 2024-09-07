@@ -1,0 +1,6 @@
+@FM.WebApi_HostAddress = http://localhost:5140
+
+GET {{FM.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
